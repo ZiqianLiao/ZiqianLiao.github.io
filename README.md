@@ -2,7 +2,9 @@
 ### Data Science Portfolio
 ---
 
-Hey, I'm Ziqian. Welcome to my GitHub data science portfolio! Please visit ZiqianLiao.github.io for a better experience.
+Hey, I'm Ziqian. Welcome to my GitHub data science portfolio! Please visit the following rendered webpage for a better experience:
+
+ZiqianLiao.github.io
 
 In this portfolio, you will find a collection of my work in data science, including projects I have completed as part of my academic and professional training, as well as personal projects that demonstrate my skills and interests.
 
