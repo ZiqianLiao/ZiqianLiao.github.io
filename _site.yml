@@ -1,0 +1,7 @@
+name: "Ziqian Liao"
+output_dir: "."
+navbar:
+  title: "My website"
+  left:
+    - text: "Home"
+      href: index.html
