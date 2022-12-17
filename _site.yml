@@ -1,9 +1,9 @@
 name: "Ziqian Liao"
 output_dir: "."
 navbar:
-  title: "My website"
+  title: "Ziqian Liao's Portfolio"
   left:
     - text: "Home"
       href: index.html
     - text: "BST260FinalProj"
-      href: docs/patient_survival_ICU.md
+      href: docs/patient_survival_ICU.html
