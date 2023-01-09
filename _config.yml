@@ -3,8 +3,6 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Hello, my name is Ziqian and I am currently pursuing a Master's degree in Health Data Science at the T.H. Chan School of Public Health at Harvard University. Welcome to my data science portfolio on GitHub!
   <br><br>
-  Thank you for taking the time to visit my portfolio. If you have any questions or would like to connect, please don't hesitate to reach out to me. 
-  <br><br>
   <a href="https://www.linkedin.com/in/ziqian-megan-liao-459012166/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
