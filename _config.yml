@@ -1,11 +1,13 @@
-title: John Doe # your name (or website title) here
+title: Ziqian Liao # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Hey, I’m Ziqian. Welcome to my GitHub data science portfolio!
+  In this portfolio, you will find a collection of my work in data science, including projects I have completed as part of my academic and professional training, as well as personal projects that demonstrate my skills and interests.
   <br><br>
-  Second description 
+  I am always looking for new opportunities to apply my skills and learn more about data science. 
+  Thank you for visiting my portfolio and I hope you enjoy exploring my work. 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/ziqian-megan-liao-459012166/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
