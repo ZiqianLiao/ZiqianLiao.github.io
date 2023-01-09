@@ -1,14 +1,51 @@
+## Developer Portfolio Landing Page Template
 
-### Data Science Portfolio
----
+### Introduction
 
-Hey, I'm Ziqian. Welcome to my GitHub data science portfolio! Please visit the following rendered webpage for a better experience:
+Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
 
-ZiqianLiao.github.io
+<img src="images/demo.gif?raw=true"/>
 
-In this portfolio, you will find a collection of my work in data science, including projects I have completed as part of my academic and professional training, as well as personal projects that demonstrate my skills and interests.
+### Installation
 
-I am always looking for new opportunities to apply my skills and learn more about data science. Thank you for visiting my portfolio and I hope you enjoy exploring my work. If you have any questions, please feel free to reach out to me.
+See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
+___
 
-* Email: zliao@hsph.harvard.edu
-* LinkedIn: https://www.linkedin.com/in/ziqian-megan-liao-459012166/
+You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Roadmap
+
+See the [open issues](https://github.com/evanca/quick-portfolio/issues) for a list of proposed features (and known issues).
+___
+
+### References
+
+[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
+<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
+<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
