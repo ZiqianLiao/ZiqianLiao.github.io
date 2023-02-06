@@ -1,4 +1,4 @@
-Prediction of Patient Survival with ICU Data
+MRI-Based Prediction of Dementia with Regression and Survival Analysis
 ================
 Joanna Shen, Ziqian Liao
 2022-12-12
