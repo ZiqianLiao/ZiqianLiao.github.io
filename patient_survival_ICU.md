@@ -336,7 +336,7 @@ Table 1: Summary of Missing Data
 ![Variable Importance by Mean Decrease Gini](docs/figure2.png)
 
 ![Parameter Tuning with Different Numbers of Randomly Sampled
-Predictors](figure3.png)
+Predictors](docs/figure3.png)
 
     ## $positive
     ## [1] "0"
@@ -374,9 +374,9 @@ Predictors](figure3.png)
 
 Table 2: Summary Statistics for the Random Forest Model
 
-![Confusion Matrix of Predictions by Random Forest Model](figure4.png)
+![Confusion Matrix of Predictions by Random Forest Model](docs/figure4.png)
 
-![Balanced Accuracy of Model versus Varying Threshold](figure5.png)
+![Balanced Accuracy of Model versus Varying Threshold](docs/figure5.png)
 
     ## $positive
     ## [1] "0"
@@ -416,9 +416,9 @@ Table 3: Summary Statistics for the Random Forest Model with Adjusted
 Threshold
 
 ![Confusion Matrix of Predictions by Random Forest Model with Adjusted
-Threshold](figure6.png)
+Threshold](docs/figure6.png)
 
-![ROC Comparison between the Original and Adjusted Model](figure7.png)
+![ROC Comparison between the Original and Adjusted Model](docs/figure7.png)
 
 #### Code
 
