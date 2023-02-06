@@ -74,7 +74,6 @@ The link between brain aging and age is a well-known and extensively studied phe
 
 To investigate this association, we built a linear regression model with age as the predictor variable and nWBV as the outcome variable. After evaluating the validity of our models with diagnostic plots, we compared the performance of three different regression methods: a simple linear model, a quadratic model, and a cubic model. The results of our analysis of variance (ANOVA) showed that the quadratic model outperformed the simple linear model (p = 0.04099 \< 0.05), while the cubic model failed to provide significant improvement over the quadratic model (p = 0.5019 ≥ 0.05). Additionally, the quadratic model had the lowest AIC and the largest adjusted R2 (table 1), indicating a better fit than the other candidates.
 
-![Shape1](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif)
 
 Table 1. Linear age, quadratic age, and cubic age models comparison with AIC and adjusted R2
 
@@ -86,7 +85,7 @@ Table 1. Linear age, quadratic age, and cubic age models comparison with AIC and
 
 Therefore, we selected the quadratic model as the final model for the relationship between nWBV and age. Our final model is thus
 
-![](RackMultipart20230206-1-sz4l9z_html_e70ff25d5e8bb15c.png).
+![](proj2_fig1.png).
 
 The final model suggests a statistically significant relationship between quadratic age and nWBV (p = 0.0410 \< 0.05).
 
@@ -96,7 +95,6 @@ We sought to investigate the potential for MRI-based measures to predict a demen
 
 To identify which MRI-based measures should be included in our predictive model, we considered two measures present in our dataset: normalized whole-brain volume (nWBV) and estimated total intracranial volume (eTIV). We fit two models, each including one of these measures as a predictor, as well as a third model that included both measures. We found that the model with nWBV as a single predictor performed the best, as indicated by the lowest Akaike Information Criterion (AIC) among the three models (table 2). We further confirmed this conclusion by performing an analysis of variance (ANOVA) to compare the model with nWBV only and the model with both nWBV and eTIV. The resulting p-value (p = 0.3226 ≥ 0.05) also favored the model with nWBV as the sole predictor.
 
-![Shape3](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif)
 
 Table 2. Comparison of models using eTIV, nWBV, or eTIV plus nWBV with AIC
 
@@ -108,7 +106,6 @@ Table 2. Comparison of models using eTIV, nWBV, or eTIV plus nWBV with AIC
 
 In the next step of our analysis, we sought to determine the best way to represent the information provided by the nWBV measure in our logistic regression models. To do so, we fitted multiple models using the nWBV measure in its categorical, ordinal, and original continuous forms and compared their performance based on AIC values (table 3).
 
-![Shape5](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif)
 
 Table 3. Comparison of models using categorical, ordinal, or continuous nWBV with AIC
 
@@ -120,7 +117,6 @@ Table 3. Comparison of models using categorical, ordinal, or continuous nWBV wit
 
 The model using the continuous form of nWBV had the lowest AIC, indicating the best performance among the three. After that, we compared the performance of models that included nWBV in its linear, quadratic, and cubic forms, again using AIC values (table 4), and found that the simple linear form provided the best fit.
 
-![Shape7](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif)
 
 Table 4. Linear nWBV, quadratic nWBV, and cubic nWBV models comparison with AIC
 
@@ -136,31 +132,27 @@ To determine whether sex, age, and level of education should be considered confo
 
 Based on our analysis, we decided on the following logistic regression model for predicting dementia:
 
-![](RackMultipart20230206-1-sz4l9z_html_3368c79695676100.png).
+![](proj2_fig2.png).
 
 This model takes into account the effects of sex and quadratic age as potential confounders and provides the best fit for the data according to our evaluation criteria. We used the model to visualize how probability of dementia is associated with nWBV (figure 1).
 
-![Shape9](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif)
 
-![](RackMultipart20230206-1-sz4l9z_html_a73733c265a80f14.png)Figure 1. Scatterplot showing the estimated relationship between probability of dementia and nWBV resulted from the logistic regression model
+![](proj2_fig_real1.png)Figure 1. Scatterplot showing the estimated relationship between probability of dementia and nWBV resulted from the logistic regression model
 
-![Shape10](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif)
 
 _2.3. Survival Analysis of Dementia Progression_
 
 In addition to the analysis we conducted to investigate the relationship between nWBV and dementia, we also aimed to investigate the potential of MRI-based measures to predict the progression of dementia, as defined by an increase in clinical dementia rating (CDR) in a subsequent patient visit. To achieve our objective, we used a survival analysis approach and considered the worsening of dementia as the target event. We computed the observation period for each patient by measuring their change in age on records of their multiple visits. We used the data to calculate and plot the Kaplan-Meier estimate of the survival function, ![](RackMultipart20230206-1-sz4l9z_html_9b561371b50e3b84.png) (figure 2).
 
-![Shape11](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif) ![](RackMultipart20230206-1-sz4l9z_html_858ca75a1f6232bc.png)
 
 Figure 2. Kaplan-Meier survival curve showing the estimated survival probability ![](RackMultipart20230206-1-sz4l9z_html_9b561371b50e3b84.png)
 
-![Shape12](RackMultipart20230206-1-sz4l9z_html_237499165a11f2b9.gif)
 
 To prepare our data for building the Cox proportional hazards regression model, we dichotomized the study population based on their nWBV with the threshold at the median value of 0.7125. After fitting the model, we examined the diagnostic plots to ensure that the assumption of proportional hazards held. We first generated the log-log plot ( ![](RackMultipart20230206-1-sz4l9z_html_b1f79e289daaea92.png)vs. ![](RackMultipart20230206-1-sz4l9z_html_9f93a7f28ab5c64d.png)) and found that the two lines were roughly parallel, indicating that the hazards were proportional. We also examined the weighted Schoenfeld residuals and obtained a large p-value, which is evidence that the model is valid. The plot also shows no pattern of changing residuals for that covariate, further confirming the validity of our model.
 
 Based on our analysis, we decided on the following model for survival analysis:
 
-![](RackMultipart20230206-1-sz4l9z_html_adc18637bcba5531.png).
+![](proj2_fig_real2.png).
 
 The final model suggests that the contribution by nWBV on the hazard of dementia progression was statistically significant (p = 0.0136 \< 0.05), with lower nWBV suggesting higher likelihood of worsened dementia.
 
