@@ -331,9 +331,9 @@ Retrieved from
 
 Table 1: Summary of Missing Data
 
-![Summary of Correlations among Predictors](figure1.png)
+![Summary of Correlations among Predictors](docs/figure1.png)
 
-![Variable Importance by Mean Decrease Gini](figure2.png)
+![Variable Importance by Mean Decrease Gini](docs/figure2.png)
 
 ![Parameter Tuning with Different Numbers of Randomly Sampled
 Predictors](figure3.png)
