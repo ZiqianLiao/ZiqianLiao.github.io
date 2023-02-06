@@ -5,7 +5,7 @@
 ### Machine Learning Projects 
 
 [Prediction of Patient Survival with ICU Data](/patient_survival_ICU.md)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/proj1_image.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
