@@ -8,8 +8,9 @@
 <img src="images/proj1_image.png?raw=true"/>
 
 ---
-[MRI-Based Prediction of Dementia with Regression and Survival Analysis](/MRI_dementia_reg_analysis.md)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[MRI-Based Prediction of Dementia with Regression and Survival Analysis - Project Write Up](/MRI_dementia_reg_analysis.md)
+[MRI-Based Prediction of Dementia with Regression and Survival Analysis - Presentation Slides](/bst210proj_MRI_dementia.pdf)
+<img src="images/proj2_image.jpg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
