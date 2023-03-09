@@ -15,9 +15,9 @@ Authors: Ziqian Liao, Joanna Shen
 
 This is a Streamlit-based visualization project with Chronic Disease Indicators data sourced from CDC. This dataset includes statistics of key significance in public health practice from states and regions across the U.S. over the time span of 2010 - 2022. Two interfaces are included to show (i) the geographical distributions and temporal trends of mortality due to chronic diseases stratified with sex or race/ethnicity and (ii) the associations between mortality due to chronic disease and prevalence of relevant risk factors. 
 
-[](appscrshot1.png)
-[](appscrshot2.png)
-[](appscrshot3.png)
+![](appscrshot1.png)
+![](appscrshot2.png)
+![](appscrshot3.png)
 
 - - -
 
