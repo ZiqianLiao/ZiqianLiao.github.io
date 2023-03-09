@@ -67,13 +67,13 @@ The main tasks for this exploratory visualization are as follows:
 
 ### Step 2: Sketches
 
-![](image/bmi706_proj_sketch_final_01.jpg)
-![](image/bmi706_proj_sketch_final_02.jpg)
-![](image/bmi706_proj_sketch_final_03.jpg)
-![](image/bmi706_proj_sketch_final_04.jpg)
-![](image/bmi706_proj_sketch_final_05.jpg)
-![](image/bmi706_proj_sketch_final_06.jpg)
-![](image/bmi706_proj_sketch_final_07.jpg)
+![](images/bmi706_proj_sketch_final_01.jpg)
+![](images/bmi706_proj_sketch_final_02.jpg)
+![](images/bmi706_proj_sketch_final_03.jpg)
+![](images/bmi706_proj_sketch_final_04.jpg)
+![](images/bmi706_proj_sketch_final_05.jpg)
+![](images/bmi706_proj_sketch_final_06.jpg)
+![](images/bmi706_proj_sketch_final_07.jpg)
 
 #### Potential Visualization Challenges
 
@@ -121,27 +121,27 @@ This view provides users with the convenience to compare the trends and discover
 
 * Health data collection appears to be a source of bias, as some ethnic groups, such as *American Indian or Alaska Native* and *Black, non-Hispanic*, have significantly more missing data than others, like *White, non-Hispanic*. This unequal distribution of missing data has resulted in limited knowledge of the health conditions of underrepresented groups, which could further lead to health outcome disparities. We as public health practitioners will need to be aware of such discrepancy.
 
-![Chronic Disease Mortality Statistics in 2018, Chronic Liver Disease, White, non-Hispanic](image/img1.png)
+![Chronic Disease Mortality Statistics in 2018, Chronic Liver Disease, White, non-Hispanic](images/img1.png)
 
-![Chronic Disease Mortality Statistics in 2018, Chronic Liver Disease, American Indian or Alaska Native](image/img2.png)
+![Chronic Disease Mortality Statistics in 2018, Chronic Liver Disease, American Indian or Alaska Native](images/img2.png)
 
 * Based on the visualization, it is generally observed that males are more susceptible to chronic liver disease, oral cavity and pharynx cancer, cancer of the colon and rectum, lung and bronchus cancer, end-stage renal disease, and coronary heart disease. Females are more prone to asthma, while stroke affects both genders at a similar level.
 
-![Chronic Disease Mortality Statistics in 2013, Lung and bronchus cancer, Female](image/img3.png)
-![Chronic Disease Mortality Statistics in 2013, Lung and brounchus cancer, Male](image/img4.png)
+![Chronic Disease Mortality Statistics in 2013, Lung and bronchus cancer, Female](images/img3.png)
+![Chronic Disease Mortality Statistics in 2013, Lung and brounchus cancer, Male](images/img4.png)
 
 **Interface II**
 
 * Except for the amount of per capita alcohol consumption, we can learn from the map that th residents of the South Central states, such as Louisiana and Mississippi, may be at higher risk of certain diseases given their prevalence of each of the other three risk factors. Besides, based on the line chart below, among the four risk factors we take into consideration, the amount of per capita alcohol consumption does not change much over time in nearly all the states, while we can clearly see that there are increasing trend in the prevalence of obesity over time and decreasing trend in the prevalence of smoking or healthy weight.
 
-![Risk Factor Prevalence Statistics in 2016, Smoking](image/img5.png)
+![Risk Factor Prevalence Statistics in 2016, Smoking](images/img5.png)
 
 
 * Based on the two line charts, there exist clear relationships between certain dieases and risk factors. We find that, for instance,
     - Obesity may be a risk factor for chronic liver disease while for individuals with healthy weight, they may be at lower risk of chronic liver disease.
     - Smoking may be a risk factor for colorectal cancer, lung and bronchus cancer, melanoma, or coronary heart disease.
 
-![Obesity Prevalence vs. Age-Adjusted Mortality Rates of Chronic Liver Disease](image/img6.png)
+![Obesity Prevalence vs. Age-Adjusted Mortality Rates of Chronic Liver Disease](images/img6.png)
 
 
 #### Future Work
