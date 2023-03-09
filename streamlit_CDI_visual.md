@@ -10,10 +10,14 @@ Project Title: U.S. Chronic Disease Mortality Trend Map
 Authors: Ziqian Liao, Joanna Shen
 
 * [GitHub Repository](https://github.com/JiaaiShen/BMI706_Project.git)
-* [Streamlit App - U.S. Chronic Disease Mortality Trend Map](https://jiaaishen-bmi706-project-home-3kkj64.streamlit.app/)
+* [Streamlit App - U.S. Chronic Disease Mortality Trend Map](https://jiaaishen-bmi706-project-home-3kkj64.streamlit.app/) - Explore our demo! 😎
 * [Demo Video - U.S. Chronic Disease Mortality Trend Map](https://github.com/JiaaiShen/BMI706_Project/blob/e6b01c739f0e8aa03ee970ffbfd80f192df0a6cd/bmi706_zl_js_video.mp4)
 
 This is a Streamlit-based visualization project with Chronic Disease Indicators data sourced from CDC. This dataset includes statistics of key significance in public health practice from states and regions across the U.S. over the time span of 2010 - 2022. Two interfaces are included to show (i) the geographical distributions and temporal trends of mortality due to chronic diseases stratified with sex or race/ethnicity and (ii) the associations between mortality due to chronic disease and prevalence of relevant risk factors. 
+
+[](appscrshot1.png)
+[](appscrshot2.png)
+[](appscrshot3.png)
 
 - - -
 
